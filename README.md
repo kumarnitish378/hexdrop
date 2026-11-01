@@ -6,6 +6,8 @@ bootloader**. Built for an operator who should not have to know what avrdude is.
 
 **Nitish Sharma**
 
+![HexDrop ready to flash an Arduino Mega 2560 through an UNO](docs/screenshot.png)
+
 ---
 
 ## Status
