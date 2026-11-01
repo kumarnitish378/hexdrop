@@ -30,6 +30,7 @@ REQUIRED = [
     "HexDrop.exe",
     "hexdrop-cli.exe",
     "README.txt",
+    "LICENSE.txt",
     "_internal/hexdrop/backends/avr/tools/avrdude.exe",
     "_internal/hexdrop/backends/avr/tools/avrdude.conf",
     "_internal/hexdrop/backends/avr/tools/LICENSE.txt",
@@ -53,6 +54,7 @@ def build() -> None:
 
 def stage() -> None:
     shutil.copy2(EXTRAS / "README.txt", STAGE / "README.txt")
+    shutil.copy2(ROOT / "LICENSE", STAGE / "LICENSE.txt")
     for folder in ("firmware", "logs"):
         (STAGE / folder).mkdir(exist_ok=True)
     # Git does not carry empty folders and neither does zip; a placeholder

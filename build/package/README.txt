@@ -144,6 +144,7 @@ Windows may warn that this program is from an unknown publisher. It is not
 signed with a paid certificate. Choose "More info" then "Run anyway", or ask
 your IT department.
 
+HexDrop is under the MIT License; see LICENSE.txt in this folder.
 This program includes avrdude, which is free software under the GNU GPL.
 Its licence is in _internal\hexdrop\backends\avr\tools\LICENSE.txt.
 Fonts are Bebas Neue and Poppins, under the SIL Open Font Licence.

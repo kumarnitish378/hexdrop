@@ -224,6 +224,11 @@ No rebuild. `avrdude -p ?` lists all 172 supported AVR parts.
 
 ---
 
+## Licence
+
+HexDrop's own code is under the [MIT License](LICENSE). The bundled components
+below keep their own licences.
+
 ## Third-party components
 
 | Component | Version | Licence | Source |
@@ -235,9 +240,6 @@ No rebuild. `avrdude -p ?` lists all 172 supported AVR parts.
 
 avrdude is invoked as a separate process, not linked, so it stays under the GPL
 while this project's own code is not placed under it.
-
-**This repository has no LICENSE file**, which means all rights reserved by
-default. Add one if it is meant to be reused.
 
 ---
 
