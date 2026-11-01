@@ -100,7 +100,7 @@ Vertical stack, no scrolling at default size.
 
 **Left** (24px from edge): logo mark **32×32** → 12px gap → wordmark
 `HEXDROP` (16 SemiBold, uppercase, `text`) → 10px gap → version pill
-`v1.1.0` (11 Regular, `text-dim`, bg `surface-raised`, radius 10, padding 3×9).
+`v1.1.1` (11 Regular, `text-dim`, bg `surface-raised`, radius 10, padding 3×9).
 
 **Right** (24px from edge): two **32×32** ghost icon buttons, 8px apart — gear (Settings),
 question mark (Help). Icon 18px, `text-dim`; on hover bg `surface-raised`, icon `text`.
@@ -278,4 +278,4 @@ dialog reads the pin map from the board's JSON profile, so new boards bring thei
 Rows: avrdude path (read-only, with `Use bundled` / `Browse…`) · firmware library folder ·
 default board · default upload method · theme (System / Dark / Light) ·
 `Verify after writing` checkbox (on) · `Keep log files` checkbox.
-Footer: `HexDrop v1.1.0 · avrdude 8.0-arduino.1`.
+Footer: `HexDrop v1.1.1 · avrdude 8.0-arduino.1`.
