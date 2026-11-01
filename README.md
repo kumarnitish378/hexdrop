@@ -117,7 +117,7 @@ python build/package.py        # build + stage + zip
 python build/package.py --no-build
 ```
 
-Produces `dist/HexDrop_v1.1.0.zip` — **73 MB unpacked, 30 MB zipped**,
+Produces `dist/HexDrop_v1.1.1.zip` — **73 MB unpacked, 30 MB zipped**,
 containing two executables that share one set of dependencies:
 
 | | |
