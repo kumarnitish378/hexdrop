@@ -1,0 +1,26 @@
+# UTF-8
+# Windows version resource. Shown on the exe's Properties > Details tab, and
+# what an IT department looks at before allowing an unsigned binary to run.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 1, 0, 0),
+    prodvers=(1, 1, 0, 0),
+    mask=0x3f, flags=0x0, OS=0x40004, fileType=0x1, subtype=0x0, date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable("040904B0", [
+        StringStruct("CompanyName", "Nitish Sharma"),
+        StringStruct("FileDescription", "HexDrop"),
+        StringStruct("FileVersion", "1.1.0"),
+        StringStruct("InternalName", "HexDrop"),
+        StringStruct("LegalCopyright", "Nitish Sharma. Bundled avrdude is GPL; see tools/avr/LICENSE.txt"),
+        StringStruct("OriginalFilename", "HexDrop.exe"),
+        StringStruct("ProductName", "HexDrop"),
+        StringStruct("ProductVersion", "1.1.0"),
+        StringStruct("Comments", "Firmware flashing for AVR boards. By Nitish Sharma"),
+      ])
+    ]),
+    VarFileInfo([VarStruct("Translation", [1033, 1200])])
+  ]
+)
